@@ -1,0 +1,28 @@
+<div class="dashboard">
+
+  <h1>Counsellor Dashboard</h1>
+
+  <div class="cards">
+
+    <div class="card total">
+      <h3>Total Enquiries</h3>
+      <p>{{dashboard.totalEnquiries}}</p>
+    </div>
+
+    <div class="card open">
+      <h3>Open Enquiries</h3>
+      <p>{{dashboard.openEnquiries}}</p>
+    </div>
+
+    <div class="card closed">
+      <h3>Closed Enquiries</h3>
+      <p>{{dashboard.closedEnquiries}}</p>
+    </div>
+
+  </div>
+
+  <div class="actions">
+    <button routerLink="/add-enquiry">Add Enquiry</button>
+  </div>
+
+</div>

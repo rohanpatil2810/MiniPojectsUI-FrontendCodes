@@ -1,0 +1,38 @@
+@import "primeicons/primeicons.css";
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(120deg,#667eea,#764ba2);
+min-height:100vh;
+}
+
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+width:350px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+input{
+width:100%;
+padding:10px;
+margin-top:10px;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#667eea;
+border:none;
+color:white;
+cursor:pointer;
+}

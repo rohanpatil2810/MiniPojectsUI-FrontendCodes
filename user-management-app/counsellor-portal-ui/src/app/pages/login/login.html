@@ -1,0 +1,35 @@
+<div class="container">
+
+  <div class="card">
+
+    <h2>Counsellor Login</h2>
+
+    <input
+      type="text"
+      placeholder="Enter Email"
+      [(ngModel)]="email"
+    >
+
+    <br><br>
+
+    <input
+      type="password"
+      placeholder="Enter Password"
+      [(ngModel)]="password"
+    >
+
+    <br><br>
+
+    <button (click)="login()">
+      Login
+    </button>
+
+    <br><br>
+
+    <a routerLink="/register">
+      Create Account
+    </a>
+
+  </div>
+
+</div>
